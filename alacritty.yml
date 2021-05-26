@@ -1,0 +1,80 @@
+# Window Customization
+window:
+  dimensions:
+    columns: 140
+    lines: 38
+  padding:
+    x: 25
+    y: 25
+  decorations: none
+scrolling:
+  history: 10000
+  multiplier: 3
+background_opacity: .85
+window.dynamic_title: true
+startup_mode: Windowed
+# Font Customization
+font:
+#  normal:
+# family: Iosevka
+#    style: Light 
+#  bold:
+#    family: Iosevka 
+#    style: Medium 
+#  italic:
+#    family: Iosevka 
+#    style: "Light Italic" 
+  size: 10
+#  offset:
+#    x: 0
+#    y: 0
+#  glyph_offset:
+#    x: 0
+#    y: 0
+  use_thin_strokes: false
+#  debug:
+#    persistent_logging: false
+draw_bold_text_with_bright_colors: true
+
+
+  #Visual Studio Code Terminal
+
+# VSCode's integrated terminal default colors
+# Primary and dimmed colors needed
+
+
+      #Dracula
+
+# Colors (Dracula)
+colors:
+  # Default colors
+  primary:
+    background: '#282a36'
+    foreground: '#f8f8f2'
+
+  # Normal colors
+  normal:
+    black:   '#000000'
+    red:     '#ff5555'
+    green:   '#50fa7b'
+    yellow:  '#f1fa8c'
+    blue:    '#caa9fa'
+    magenta: '#ff79c6'
+    cyan:    '#8be9fd'
+    white:   '#bfbfbf'
+
+  # Bright colors
+  bright:
+    black:   '#575b70'
+    red:     '#ff6e67'
+    green:   '#5af78e'
+    yellow:  '#f4f99d'
+    blue:    '#caa9fa'
+    magenta: '#ff92d0'
+    cyan:    '#9aedfe'
+    white:   '#e6e6e6'
+
+
+key_bindings:
+  - { key: N, mods: Control, action: SpawnNewInstance }
+
